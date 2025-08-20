@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wprk-area{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.head{
+    /* border: 1px solid red; */
+    background-color: #3f78b0;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.body{
+    /* border: 1px solid red; */
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.find-city{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #3f78b0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    width: 25%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.cityInpit{
+    /* border: 1px solid red;  */
+    color: white;
+    width: 100%;
+    height: 30%;    
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.cityInpit input{
+    font-size: 15px;
+    width: 50%;
+    padding: 1%;
+}
+
+.buttons{
+    /* border: 1px solid red;  */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.btn{
+    background-color: #203f5d;
+    border-radius: .5rem;
+    width: 35%;
+    height: 50%;
+    color: white;
+}
+.btn:hover{
+    background-color: #57a6f5;
+}
+
+#result{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    display: none;
+    text-align: center;
+    
+}
+.dishead{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.discription{
+    color: rgb(95, 95, 95);
+    text-align: center;
+}
+
+.foot{
+    /* border: 1px solid red; */
+    background-color: #3f78b0;
+    height: 5vh;
+    width: 100%;  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+@media(max-width: 600px){
+
+.head{
+    font-size: 12px;
+}
+
+.find-city{
+    width: 75%;
+}
+
+.dishead{
+    font-size: 15px;
+
+}
+.discription{
+    font-size: 12px;
+}
+
+.foot{
+    font-size: 12px;
+    text-align: center;
+}
+
+}
