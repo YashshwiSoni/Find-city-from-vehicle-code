@@ -791,15 +791,6 @@ const vehicledata = {
 "WB37": "Kolkata (old) - West Bengal"
 }
 
-// const vehicleCode = document.getElementById("vehicle-code");
-// const searchCity = document.getElementById("Find-City");
-// const reset = document.getElementById("Reset-City");
-// const cityresult = document.getElementById("result");
-// const vehicledata =
-
-
-
-
 
 searchCity.addEventListener("click", function(){
     const vCode = vehicleCode.value.trim().toUpperCase();
